@@ -1,1 +1,2 @@
-Addition Result 70
+Addition Result = 70
+Subtraction Result = 10
