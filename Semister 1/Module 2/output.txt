@@ -3,3 +3,4 @@ Subtraction Result = 10
 Multipliction Result = 200
 Division2 Result = 6.666667
 Division Result = 5
+Modulus Result = 2
