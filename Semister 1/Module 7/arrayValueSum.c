@@ -8,13 +8,12 @@ int main()
     {
         scanf("%d", &hello[i]);
     }
+    int sum = 0;
     for (int i = 0; i < n; i++)
     {
-        if (hello[i] % 2 == 0)
-        {
-            printf("Array %d = %d\n", i, hello[i]);
-        }
+        sum = sum + hello[i];
     }
+    printf("%d", sum);
 
     return 0;
 }
