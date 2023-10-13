@@ -5,14 +5,17 @@ int main()
     scanf("%d", &n);
     for (int i = 1; i <= n; i++)
     {
-        if (n > 0)
+        if (n < 0)
         {
             printf("%d ", i);
             /* code */
         }
         else if (n < 0)
         {
-            printf("%d", i - 1);
+           
+                printf("%d", i);
+                /* code */
+            
         }
     }
 
